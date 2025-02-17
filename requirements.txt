@@ -1,0 +1,27 @@
+numpy
+pandas
+scikit-learn
+streamlit
+nltk
+spacy
+beautifulsoup4
+transformers
+transformers[sentencepiece]
+matplotlib
+tensorflow
+pyYAML
+tqdm
+py7zr
+rouge_score
+sacrebleu
+datasets
+boto3
+mypy-boto3-s3
+ensure==1.0.2
+fastapi== 0.78.0
+Jinja2==3.1.2
+uvicorn == 0.18.3
+python-box==6.0.2
+torch
+notebook
+-e .
