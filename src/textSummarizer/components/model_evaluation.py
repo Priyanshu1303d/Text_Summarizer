@@ -61,7 +61,7 @@ class ModelEvaluation:
         rouge_metric = evaluate.load("rouge")
 
         score = self.calculate_metrics_on_test_ds(
-            dataset_samsum_pt['test'][0:10], rouge_metric, model_pegasus, tokenizer, batch_size=2,
+            dataset_samsum_pt['test'][0:10], rouge_metric, model_pegasus, tokenizer, batch_size=1,
             column_text='dialogue', column_summary='summary'
         )
 
